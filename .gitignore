@@ -1,0 +1,9 @@
+# dbt artifacts
+target/
+dbt_packages/
+logs/
+
+# local / user-specific
+.user.yml
+.DS_Store
+

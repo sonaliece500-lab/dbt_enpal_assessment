@@ -1,8 +1,15 @@
 version: 2
 
 sources:
-  - name: postgres_public
-    database: postgres
+  - name: pipedrive
     schema: public
+    description: "Raw Pipedrive tables loaded by docker init"
     tables:
+      - name: deal_changes
+      - name: stages
       - name: activity
+      - name: activity_types
+      - name: users
+      - name: fields
+
+
